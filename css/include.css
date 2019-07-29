@@ -1,0 +1,114 @@
+/*푸터 헤더전용*/
+@charset "utf-8";
+#wrap{
+    position: relative;
+}
+/*header*/
+#header{
+    position: absolute;
+    width: 100%;
+}
+
+.header_top{
+    position: relative;
+    height:110px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.panel{
+    top:50%;
+    margin-top: -12px;
+    left: 52px;
+}
+.panel a{
+    display: block;
+}
+.panel a img{}
+
+.h_logo{
+    text-align: center;
+    text-indent: -9999px;
+    width: 235px;
+    height: 100%;
+    background: url(../images/h_logo.png) no-repeat center;
+    margin:0 auto;
+    vertical-align: middle;
+}
+.h_logo a{
+        width: 235px;
+    height: 100%;
+    display: block;
+}
+.h_logo a img{}
+
+.h_sns{
+    right: 70px;
+    top:50%;
+    margin-top: -15px;
+}
+.h_sns li{
+    float: left;
+    margin-right: 10px;
+}
+.h_sns li a{}
+.h_sns li a img{}
+.panel,.h_sns{
+    position: absolute;
+}
+
+.gnb{}
+.gnb li{
+    font-size: 0;
+    padding: 20px 40px;
+    display: inline-block;
+}
+.gnb li a{
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    display: block;
+}
+.gnb li a:after{
+    content: "";
+    height: 1px;
+    width: 0;
+    display: block;
+    background: #fff;
+    margin: 0 auto;
+    transition: width 0.3s;
+}
+.gnb li:hover a:after{
+    width: 100%;
+}
+
+/*푸터*/
+#footer{
+    background: #363433;
+    text-align: center;
+}
+
+.f_sns{
+    padding: 40px 0 20px;
+}
+.f_sns li{
+    display: inline-block;
+    width: 18px;
+    margin: 0 10px;
+}
+.f_sns a{}
+.f_sns img{
+    width: 100%;
+}
+
+#footer span img{
+    margin: 20px 0;
+}
+#footer span a{
+    display: block;
+}
+#footer p{
+    font-size: 13px;
+    margin-top: 10px;
+    color: #c6c6c6;
+    padding-bottom: 40px;
+}

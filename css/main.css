@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+/*메인슬라이더시작*/
+#container{}
+.mainSlider{
+    height: 1030px;
+    background: url(../images/main_slider01_shadow.png) no-repeat;
+}
+.textBox{
+    padding-left: 20px;
+    padding-top: 480px;
+}
+.textBox h2{
+    color: #fefefe;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.textBox h2:after{
+    content: "";
+    width: 145px;
+    height: 2px;
+    display: block;
+    background: #fff;
+
+}
+.textBox p{
+    margin-top: 30px;
+    color: #c6c6c6;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+
+.moreBtn{
+    margin-top: 25px;
+    vertical-align:middle;
+}
+.moreBtn a{
+    width: 145px;
+    height: 44px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    line-height: 44px;
+    display: block;
+    color: #fff;
+    background: rgba(0,0,0,0);
+    font-weight: 300;
+    transition: all 1s;
+    position: relative;
+    text-align: left;
+    padding-left: 20px
+}
+.moreBtn span{
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+.moreBtn a:hover{
+    background: rgba(255,255,255,0.2);
+}
+
+/*컨텐츠1~4*/
+.con1{
+    height: 1030px;
+    background: url(../images/main_slider02_shadow.png) no-repeat;
+}
+.textR{
+    text-align: right;
+    margin-right: 20px;
+}
+.textR h2:after{
+    width: 188px;
+    margin-left: 750px;
+}
+.textR .moreBtn{
+    margin-left: 795px;
+    text-align: center;
+}
+
+.con2{
+    background: url(../images/main_slider03_shadow.png) no-repeat;
+}
+.con2 h2:after{
+    width: 198px;
+}
+.con3{
+    background: url(../images/main_slider04_shadow.png) no-repeat;
+}
+.con3 h2:after{
+    width: 240px;
+    margin-left: 698px;
+}
+.con4{
+    background: url(../images/main_slider05_shadow.png) no-repeat;
+}
+.con4 h2:after{
+    width: 206px;
+}
+
+/*컨텐츠5*/
+.con5{
+    padding: 80px 0;
+    background: #201e1d;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+.con5 div{}
+.con5 .con5Text{
+
+}
+.con5 .con5Text p{
+    color: #c6c6c6;
+}
+.con5 .con5Text h2{
+    margin: 20px 0;
+    font-family: 'Avenir';
+    font-size: 30px;
+}
+.con5 form p{
+    width:586px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0;
+}
+input{
+    width: 586px;
+    text-align: left;
+    border:none;
+    border-bottom :1px solid #ccc;
+    background: #201e1d;
+    margin: 20px 0;
+    color: #fff;
+    padding-bottom: 8px;
+    padding-left: 5px;
+}
+.con5 input:focus{
+    outline:none;
+}
+
+.messageBox{
+    width: 260px;
+    height: 50px;
+    border: 1px solid #fbfbfb;
+    box-sizing: border-box;
+    line-height: 50px;
+    margin: 0 auto;
+    background: url(../images/message_btn.png) no-repeat 222px center;
+    transition: background 1s;
+    margin-top: 30px;
+}
+.messageBox:hover{
+    background: rgba(255,255,255,0.2) url(../images/message_btn.png) no-repeat 222px center;
+}
+.messageBox a{
+    color: #fbfbfb;
+    font-size: 15px;
+    display: block;
+}
